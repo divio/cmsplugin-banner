@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: cmsplugin-banner
+Version: 0.0.1
+Summary: A simple django-cms plugin that provides a banner.
+Home-page: http://github.com/divio/cmsplugin-banner
+Author: Divio GmbH
+Author-email: developers@divio.ch
+License: BSD
+Description: UNKNOWN
+Platform: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP

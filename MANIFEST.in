@@ -1,0 +1,3 @@
+include metadata.py
+include README.rst
+recursive-include cmsplugin_banner/templates *
