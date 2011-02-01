@@ -1,0 +1,18 @@
+{% load i18n %}
+<div class="banner" id="local_banner_plugin_{{ instance.id }}"></div>
+
+<script type="text/javascript">	
+//<![CDATA[		   
+	var flashvars = {};
+		flashvars.clickTag = "{{ instance.click_tag }}";
+		flashvars.clickTarget = "{{ instance.click_target }}";
+		
+	var params = {};
+		params.allowscriptaccess = "always";{% if instance.bgcolor %}
+		params.bgcolor = "{{ instance.bgcolor }}";{% endif %}
+		params.wmode = "opaque";
+		
+	var attributes = {};
+	swfobject.embedSWF("{{ instance.file.url }}", "local_banner_plugin_{{ instance.id }}", "{{ instance.width }}", "{{ instance.height }}", "8.0.0", "", flashvars, params, attributes);
+//]]>
+</script>
